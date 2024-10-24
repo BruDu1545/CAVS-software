@@ -68,7 +68,7 @@ header img:hover{
 }
 
 .toggle-navbar input {
-  display: none;
+  display: block;
 }
 
 @media (max-width: 768px) {
@@ -86,23 +86,24 @@ header img:hover{
         font-size: 24px;
     }
 
-    .toggle-unorded-list-header{
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        top: 50px;
-        right: 0;
-        width: 200px;
-    }
-
-    .toggle-unorded-list-header li a{
-        color: #ff0dff;
-    }
-
-    .toggle-navbar input:checked + .toggle-unorded-list-header {
-        display: flex;
-    }
-
+    #toggle-unorded-list-header {
+      display: flex; /* Mantemos o flex para o layout */
+      flex-direction: column;
+      position: absolute;
+      top: 50px;
+      right: 0;
+      width: 200px;
+      background-color: #000; /* Cor de fundo para o menu */
+      overflow: hidden;
+      max-height: 0; /* Inicia com altura 0 para ficar "escondido" */
+      transition: max-height 0.5s ease-in-out; /* Animação de descer e subir */
+  }
+  
+  .toggle-navbar input:checked + label + #toggle-unorded-list-header {
+      max-height: 500px; /* Define uma altura máxima que o menu pode atingir */
+  }
+  
+  
     .toggle-unorded-list-header li {
         margin: 10px 0;
     }
