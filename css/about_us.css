@@ -1,0 +1,34 @@
+.devs{
+    text-align: center;
+}
+
+.devs h2{
+    font-size: 35px;
+}
+
+.devs-grid{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 25px;
+    margin: 25px;
+}
+
+.dev{
+    border: 1px black solid;
+    border-radius: 15px;
+    flex-wrap: wrap;
+    padding: 20px;
+    width: 30%;
+    height: 30%;
+}
+
+.dev img{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.dev h3{
+    font-size: 25px;
+}

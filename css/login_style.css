@@ -1,9 +1,9 @@
 body{
   height: 100vh;
-  background-image: url(/img/bg_login.gif);
+  background-image: url(/img/bg/bg_login.gif);
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI';
 }
 
 .all{

@@ -6,7 +6,7 @@
 body {
   padding: 0;
   margin: 0;
-  background-image: url(/img/bg_front_face.jpg);  
+  background-image: url(/img/bg/bg_front_face.jpg);  
   background-size: cover; 
   background-repeat: no-repeat; 
   background-position: center;

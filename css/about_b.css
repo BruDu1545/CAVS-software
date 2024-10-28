@@ -1,0 +1,63 @@
+body{
+    background-image: url(/img/bg/bg-about.png);
+    background-repeat: no-repeat;
+    background-size: 105%;
+}
+
+/* Front face */
+
+#front-face{
+    margin:55px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    padding: 55px;
+    gap: 25px;
+}
+
+#front-face span{
+    font-size: 35px;
+    font-weight: bold;
+    color: #871217;
+}
+
+#front-face img{
+    width: 300px;
+}
+
+/* configuração respanciva */
+
+@media (max-width: 768px) {
+    body{
+        background-image: url(/img/bg/bg_mobile_about.jpg);
+    }
+    #front-face{
+        flex-direction: column;
+        color: #fff;
+        gap: 25px;
+        margin: 0;
+    }
+    
+    #front-face span{
+        font-size: 25px;
+        font-weight: bold;
+        color: #871217;
+    }
+    
+    #front-face img{
+        width: 300px;
+    }
+
+    .content{
+        display: flex;
+        width: 90%;
+        text-align: center;
+    }
+    
+}
+
+.about_business{
+    background-color: #fff;
+    padding: 20px;
+}
