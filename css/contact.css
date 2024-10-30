@@ -1,0 +1,60 @@
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background-image: url(/img/bg/bg_contact.jpg);
+    height: 100vh;
+}
+
+.contantcs{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 55px;
+    margin: 25px;
+    border-radius: 15px;
+    color: #fff;
+    background-color: #1c1c1c;
+    width: 25%;
+}
+
+.contantcs h1{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+#form_contact{
+    display: flex;
+    flex-direction: column;
+}
+
+#form_contact div{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    font-size: 20px;
+}
+
+#form_contact input, textarea{
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+
+#form_contact button{
+    padding: 10px 0px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #871217;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
