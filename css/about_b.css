@@ -60,4 +60,18 @@ body{
 .about_business{
     background-color: #fff;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.iten_F{
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: row;
+}
+
+.iten_R{
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: row;
 }

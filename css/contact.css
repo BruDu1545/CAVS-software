@@ -6,8 +6,9 @@ main{
 }
 
 body{
-    background-image: url(/img/bg/bg_contact.jpg);
-    height: 100vh;
+    background-image: url(/img/bg/bg-contact.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .contantcs{
@@ -58,3 +59,58 @@ body{
     transition: 0.5s ease;
 }
 
+/* Configuração respanciva */
+
+@media (max-width: 768px){
+   .contantcs{
+        width: 100%;
+        margin: 0;
+        padding: 20px 0px;
+    }
+
+    .contantcs h1{
+        font-size: 55px;
+        font-weight: bold;
+    }
+    
+    #form_contact label{
+        font-size: 22px;
+    }
+    
+    #form_contact input, textarea{
+        width: 100%;
+        border-radius: 5px;
+        border: 1px solid #871217;
+    }
+    
+    #form_contact button{
+        font-size: 22px;
+        width: 100%;
+    }
+
+    .references{
+        background-color: #871217;
+        color: #fff;
+        text-align: center;
+        margin: 20px ;
+        font-size: 15px;
+    }
+    
+    .references a{
+        color: #fff;
+        font-size: 15px;
+    }
+    
+}
+
+.references{
+    background-color: #871217;
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    flex-wrap: wrap;
+}
+
+.references a{
+    color: #fff;
+}

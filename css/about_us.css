@@ -1,25 +1,30 @@
 .devs{
     text-align: center;
+    background-image: url(/img/bg/bg_devs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1px;
 }
 
 .devs h2{
-    font-size: 35px;
+    font-size: 40px;
+    color: #fff;
 }
 
 .devs-grid{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     gap: 25px;
     margin: 25px;
 }
 
 .dev{
+    background-color: rgba(255,255,255);
     border: 1px black solid;
     border-radius: 15px;
     flex-wrap: wrap;
     padding: 20px;
     width: 30%;
-    height: 30%;
 }
 
 .dev img{
@@ -27,8 +32,59 @@
     height: auto;
     border-radius: 15px;
     margin-bottom: 15px;
+    border: 1px solid #000;
 }
 
 .dev h3{
     font-size: 25px;
+}
+
+.btn-dev{
+    background-color: #871217;
+    justify-content: center;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-dev a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-dev:hover{
+    background-color: #781015;
+}
+
+@media (max-width: 768px){
+    
+    .devs h2{
+        font-size: 40px;
+        color: #fff;
+    }
+    
+    .devs-grid{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .dev{
+        border: 1px black solid;
+        border-radius: 15px;
+        width: 100%;
+    }
+    
+    .dev h3{
+        font-size: 35px;
+    }
+    
+    .dev p{
+        font-size: 20px;
+    }
 }
