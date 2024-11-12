@@ -73,5 +73,5 @@ body{
 .iten_R{
     margin-bottom: 25px;
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
 }
